@@ -33,6 +33,8 @@ extern "C" {
 #define QUEST_MTP_XRSP_PID          0x0182
 #define QUEST_MTP_XRSP_ADB_PID      0x0183
 #define QUEST_XRSP_ADB_PID          0x0186
+#define QUEST_XRSP_PID_2            0x5012
+#define QUEST_XRSP_ADB_PID_2        0x5013
 
 /*!
  * Builder setup for Meta Quest Link HMD.

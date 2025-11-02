@@ -125,14 +125,16 @@ ql_found(struct xrt_prober *xp,
 		return 0;
 	}
 
-	struct ql_hmd *vdev = NULL;
+	struct ql_hmd *vdev = NULL;	
 	int count = 0;
 
 	switch (dev->product_id) {
 	case QUEST_XRSP_PID:
+	case QUEST_XRSP_PID_2:
 	case QUEST_MTP_XRSP_PID:
 	case QUEST_MTP_XRSP_ADB_PID:
-	case QUEST_XRSP_ADB_PID: {
+	case QUEST_XRSP_ADB_PID:
+	case QUEST_XRSP_ADB_PID_2: {
 		count = init_ql_usb(xp, dev, devices, device_count, log_level, out_xdev);
 		break;
 	}

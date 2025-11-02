@@ -109,6 +109,7 @@ find_package(
 		CONFIG
 	)
 find_package(Libusb1 MODULE)
+find_package(Libuvc MODULE)
 find_package(JPEG MODULE)
 find_package(realsense2 CONFIG)
 find_package(depthai CONFIG)
@@ -157,7 +158,7 @@ endif()
 
 if(PKGCONFIG_FOUND AND NOT ANDROID)
 	# @TODO Turn into a find_package LIBUVC file.
-	pkg_check_modules(LIBUVC libuvc)
+	#pkg_check_modules(LIBUVC libuvc)
 
 	# @TODO Turn into a find_package FFMPEG file.
 	#pkg_check_modules(FFMPEG libavcodec)

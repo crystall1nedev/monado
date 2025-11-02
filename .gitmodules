@@ -1,0 +1,3 @@
+[submodule "src/xrt/drivers/wivrn/h264bitstream"]
+	path = src/xrt/drivers/wivrn/h264bitstream
+	url = https://github.com/aizvorski/h264bitstream

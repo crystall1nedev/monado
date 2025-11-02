@@ -178,9 +178,11 @@ struct xrt_prober_entry target_entry_list[] = {
 
 #ifdef XRT_BUILD_DRIVER_QUEST_LINK
     {META_PLATFORMS_TECH_LLC_VID, QUEST_XRSP_PID, ql_found, "Quest Link (XRSP)", "quest_link"},
+    {META_PLATFORMS_TECH_LLC_VID, QUEST_XRSP_PID_2, ql_found, "Quest Link (XRSP, 2nd)", "quest_link"},
     {META_PLATFORMS_TECH_LLC_VID, QUEST_MTP_XRSP_PID, ql_found, "Quest Link (MTP, XRSP)", "quest_link"},
     {META_PLATFORMS_TECH_LLC_VID, QUEST_MTP_XRSP_ADB_PID, ql_found, "Quest Link (MTP, XRSP, ADB)", "quest_link"},
     {META_PLATFORMS_TECH_LLC_VID, QUEST_XRSP_ADB_PID, ql_found, "Quest Link (XRSP, ADB)", "quest_link"},
+    {META_PLATFORMS_TECH_LLC_VID, QUEST_XRSP_ADB_PID_2, ql_found, "Quest Link (XRSP, ADB, 2nd)", "quest_link"},
 #endif
 
     {0x0000, 0x0000, NULL, NULL, NULL}, // Terminate
